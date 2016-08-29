@@ -1,0 +1,23 @@
+title: Parchment
+author: pro-panda
+subtitle: A minimal jekyll theme
+
+url: "https://www.pro-panda.tech"
+baseurl: "/parchment"
+
+footer_url: "https://github.com/pro-panda"
+footer_text: "Theme by pro-panda"
+
+profile-picture: assets/profile.jpg
+favicon_location: assets/favicon.ico
+
+permalink: /:year-:month-:day-:title/
+sass:
+    style: compressed
+    sass_dir: css
+
+navbar:
+ - name: "About"
+   link: "about"
+ - name: "Resume"
+   link: "resume.pdf"

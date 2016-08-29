@@ -1,0 +1,38 @@
+<head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, {{ site.author }}, {{ site.title }}, jekyll">
+    <meta name="author" content="{{ site.author }}">
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
+    {% if page.snippet %}
+        {% assign desc = page.snippet %}
+    {% else %}
+        {% assign desc = site.subtitle %}
+    {% endif %}
+    {% if page.title %}
+        {% assign title = page.title %}
+    {% else %}
+        {% assign title = site.title %}
+    {% endif %}
+
+    <meta name="description" content="{{ desc }}">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    <link rel="icon" type="image/ico" href="{{site.url}}{{ site.baseurl }}/{{site.favicon_location}}">
+    <link rel="shortcut-icon" type="image/ico" href="{{site.url}}{{ site.baseurl }}/{{site.favicon_location}}">
+
+    <!-- For Facebook -->
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:image" content="{{site.url}}{{ site.baseurl }}/{{site.favicon_location}}" />
+    <meta property="og:description" content="{{ desc }}" />
+
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ title }}" />
+    <meta name="twitter:description" content="{{ desc }}" />
+    <meta name="twitter:image" content="{{site.url}}{{ site.baseurl }}/{{site.favicon_location}}" />
+</head>
