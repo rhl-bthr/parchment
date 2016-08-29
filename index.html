@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<br>
+
+{% for post in site.posts %}
+    <a href="{{site.baseurl}}{{ post.url }}" class="post-title">
+        {{ post.title }}
+    </a>
+    <div class="post-details">
+        <b>{{ post.date | date: "%d - %m - %Y" }}</b>
+        <br>
+        {% for tag in post.tags %}
+            {% if post.tags.first == tag %}
+                <b>[</b>
+            {% endif %}
+            <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>
+            {% if post.tags.last == tag %}
+                <b>]</b>
+            {% else %}
+                ,
+            {% endif %}
+        {% endfor %}
+    </div>
+    <br>
+    <div class="post-snippet">
+        {{ post.snippet }}
+    </div>
+    <br><br>
+    {% if forloop.last == false %}
+        <hr><br>
+    {% endif %}
+{% endfor %}

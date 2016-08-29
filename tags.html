@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: /tags/
+---
+
+<ul>
+    {% for tag in site.tags %}
+        <li id="{{ tag[0] }}">
+            <b>{{ tag[0] }}</b>
+        </li>
+        {% for post in tag[1] %}
+            {{ post.date | date:"%Y-%m-%d" }} &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <br>
+        {% endfor %}
+        <br>
+    {% endfor %}
+</ul>
