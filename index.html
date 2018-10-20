@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+
+  <a href="{{ post.url }}" class="title">
+    {{ post.title }}
+  </a>
+  <div class = "date">
+    {{ post.date | date: "%d - %m - %Y" }}
+  </div>
+  <br><br>
+  {% if post.snippet %}
+    {{ post.snippet }}
+  {% endif %}
+  <br><br><br>
+  {% if forloop.last == false %}
+  <hr><br><br>
+  {% endif %}
+{% endfor %}

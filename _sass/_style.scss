@@ -33,7 +33,7 @@ hr {
  */
 
 #author-name {
-    font-size: 30px;
+    font-size: 32px;
     color: #272727;
     display: inline-block;
 }
@@ -70,6 +70,17 @@ hr {
 }
 .wrapper {
     min-height: 100%;
+}
+
+.title{
+    color: #272727;
+    display: inline-block;
+    font-size: 32px;
+}
+
+.date{
+    @extend .pull-right;
+    font-weight: bold;
 }
 
 /* Mobile */

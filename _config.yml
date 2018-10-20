@@ -9,13 +9,14 @@ tracking_id: #
 footer_url: "https://github.com/pro-panda"
 footer_text: "Pro-Panda | 2018"
 
+permalink: /:year-:month-:day-:title/
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
  - name: "About"
-   link: "/cocoon"
+   link: "/about"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
