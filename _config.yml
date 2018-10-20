@@ -12,7 +12,7 @@ footer_text: "Pro-Panda | 2018"
 permalink: /:year-:month-:day-:title/
 sass:
     style: compressed
-    sass_dir: _sass
+    sass_dir: css
 
 nav:
  - name: "About"
