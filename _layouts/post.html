@@ -2,9 +2,6 @@
 layout: default
 ---
 
-<div class="page-title">
-    {{page.title}}
-</div>
 <div class="page-subtitle">
     {% for tag in page.tags %}
         {% if page.tags.first == tag %}
@@ -19,6 +16,4 @@ layout: default
     {% endfor %}
 </div>
 <br>
-<div class="page-content">
-    {{content}}
-</div>
+{{content}}

@@ -30,8 +30,8 @@ a:hover {
     text-decoration: underline;
 }
 hr {
-    border: 0;
-    height: 0;
+    border: none;
+    margin: 5px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -89,11 +89,9 @@ code {
     color: #272727;
     display: inline-block;
     font-size: 30px;
-    line-height: 1.5;
 }
 .post-details{
     @extend .pull-right;
-    line-height: 1.5;
     text-align: right;
     margin-left: 20px;
 }
@@ -112,8 +110,12 @@ code {
 .page-subtitle{
     text-align: center;
 }
-.page-content{
-    line-height: 1.5;
+
+// footer
+
+.footer{
+    text-align: center;
+    font-size: small;
 }
 
 // Mobile
@@ -165,9 +167,7 @@ code {
 //  typography
 
 .content {
-    a:hover {
-        text-decoration: underline;
-    }
+    line-height: 1.5;
     ol {
         counter-reset: list;
     }
@@ -194,7 +194,6 @@ code {
         left: -30px;
     }
     blockquote {
-        //border: 1px solid black;
         border-left: 5px solid #333333;
         margin: 20px 0 20px 0;
         padding: 2px 8px 2px 8px;
