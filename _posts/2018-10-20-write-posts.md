@@ -72,6 +72,9 @@ for version control using Git
 
 <br>
 
+**Here is an image,**<br>
+![](../assets/autumn.jpg)
+
 --------------
 
 That's all folks!
