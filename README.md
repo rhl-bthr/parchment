@@ -1,6 +1,12 @@
 # Parchment
 A clean, single column blog template built for jekyll
 
+## Building Locally
+* Clone the repository
+* Run `bundle install`
+* Run `bundle exec jekyll serve`
+* Visit browser at `http://127.0.0.1:4000/parchment/`
+
 ## Usage
 
 * To use this as your GitHub Page, fork this repository, and
