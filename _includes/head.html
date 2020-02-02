@@ -6,7 +6,7 @@
     <meta name="keywords" content="blog, {{ site.author }}, {{ site.title }}, jekyll">
     <meta name="author" content="{{ site.author }}">
     {% if page.url == "/404.html" %}
-        <meta http-equiv="refresh" content="5; url=/">
+        <meta http-equiv="refresh" content="5; url={{site.baseurl}}/">
     {% endif %}
     {% if page.snippet %}
         {% assign desc = page.snippet %}
