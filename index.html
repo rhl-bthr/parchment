@@ -4,10 +4,11 @@ layout: default
 
 {% for post in site.posts %}
     <div class="post-card">
-        <a href="{{site.baseurl}}{{ post.url }}" class="post-title">
+        <a class="title" href="{{site.baseurl}}{{ post.url }}">
             {{ post.title }}
         </a>
-        <div class="post-details">
+
+        <div class="details">
             <b>{{ post.date | date: "%d %B %y" }}</b>
             <br>
             {% if post.tags %}
@@ -21,7 +22,8 @@ layout: default
                 <b>]</b>
             {% endif %}
         </div>
-        <div class="post-snippet">
+
+        <div class="snippet">
             {{ post.snippet }}
         </div>
     </div>
