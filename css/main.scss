@@ -12,16 +12,11 @@ $small-width: 480px;
 
 // Basic
 
-html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 body {
     margin: 0;
     font-family: "Inconsolata";
-    height: 100%;
     background-color: #FFFFDD;
+    min-height: 100%;
 }
 a {
     text-decoration: none;
@@ -43,65 +38,57 @@ code {
 
 // divs
 
-.alignable {
-    display: inline-block;
-}
 .pull-left {
-    @extend .alignable;
     float: left;
 }
 .pull-right {
-    @extend .alignable;
     float: right;
 }
 .container {
     max-width: $max-width;
     margin: auto;
 }
-.wrapper {
-    min-height: 100%;
-}
 
 // Navbar
 
-#site-title {
-    font-size: 32px;
-    color: #272727;
-    display: inline-block;
-}
 .navbar {
-    padding: 30px 0 40px 0;
-}
-.navbar-ul {
-    display: inline-block;
-    margin: 0;
-    padding: 5px 0 5px 0;
-    margin-left: 20px;
-}
-.navbar-list {
-    list-style-type: none;
-    margin: 0 5px 0 10px;
+    ul {
+        display: inline-block;
+        margin: 0;
+        padding: 5px 0 5px 0;
+        margin-left: 20px;
+    }
+    li {
+        list-style-type: none;
+        margin: 0 5px 0 10px;
+    }
+    padding: 30px 0 5px 0;
+    .site-title{
+        font-size: 32px;
+        color: #272727;
+        display: inline-block;
+    }
 }
 
 // index
 .post-card{
     margin-top:1em;
     margin-bottom:1em;
-}
-.post-title{
-    max-width: 500px;
-    color: #272727;
-    display: inline-block;
-    font-size: 30px;
-}
-.post-details{
-    @extend .pull-right;
-    text-align: right;
-    margin-left: 20px;
-    font-size: 15px;
-}
-.post-snippet{
-    max-width: 500px;
+    .title{
+        max-width: 500px;
+        color: #272727;
+        display: inline-block;
+        font-size: 30px;
+    }
+    .details{
+        @extend .pull-right;
+        text-align: right;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .snippet{
+        max-width: 500px;
+    }
 }
 
 // pages
@@ -124,7 +111,7 @@ code {
     }
     text-align: center;
     font-size: small;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 1em;
 }
 
@@ -141,36 +128,35 @@ code {
     .container {
         max-width: 83%;
     }
-    .navbar-ul {
-        margin-top: 5px;
+    .navbar{
+        ul{
+            margin-top: 5px;
+        }
     }
 }
 
 @media (max-width: 500px) {
 	.navbar {
 		text-align: center;
-		padding: 50px 0px 0px 0px;
-	}
-	#site-title {
-		width: 100%;
-		float: none;
-	}
-	#navlist {
-		padding: 10px 0 10px 0;
-		margin: 0;
-		display: block;
-		float: none;
-		text-align: center;
-		width: 100%;
-	}
-	#navlist li.alignable {
-		display: inline-block;
-	}
-	#navlist li.pull-left {
-		float: none;
-	}
-	#navlist li.navbar-list {
-		margin: 0;
+        padding: 50px 0px 0px 0px;
+        ul{
+            padding: 10px 0 10px 0;
+            margin: 0;
+            display: block;
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        li{
+            margin: 0;
+        }
+        .pull-left{
+            float: none;
+        }
+        .site-title{
+            width: 100%;
+            float: none;
+        }
 	}
 }
 
