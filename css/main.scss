@@ -62,7 +62,8 @@ code {
         list-style-type: none;
         margin: 0 5px 0 10px;
     }
-    padding: 30px 0 5px 0;
+
+    padding: 30px 0 20px 0;
     .site-title{
         font-size: 32px;
         color: #272727;
@@ -89,6 +90,12 @@ code {
     .snippet{
         max-width: 500px;
     }
+}
+
+.no-post{
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
 }
 
 // pages
