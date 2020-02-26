@@ -9,7 +9,7 @@ footer_only_homepage: true
 footer_url: "https://github.com/pro-panda"
 footer_text: "Theme by pro-panda"
 
-profile-picture: assets/profile.jpg
+profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
 
 permalink: /:year-:month-:day-:title/
