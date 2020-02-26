@@ -1,5 +1,5 @@
 <div class="footer">
-    {% if page.url == "/" %}
+    {% if page.url == "/" and site.footer_only_homepage %}
         <hr>
         <a href="{{ site.footer_url }}">{{ site.footer_text }}</a>
     {% else %}
