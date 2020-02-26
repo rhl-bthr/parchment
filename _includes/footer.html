@@ -1,4 +1,8 @@
 <div class="footer">
-    <hr>
-    <a href="{{ site.footer_url }}">{{ site.footer_text }}</a>
+    {% if page.url == "/" %}
+        <hr>
+        <a href="{{ site.footer_url }}">{{ site.footer_text }}</a>
+    {% else %}
+        <br>
+    {% endif %}
 </div>

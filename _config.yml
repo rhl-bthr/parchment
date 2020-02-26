@@ -5,6 +5,7 @@ subtitle: A minimal jekyll theme
 url: "https://pro-panda.github.io"
 baseurl: "/parchment"
 
+footer_only_homepage: true
 footer_url: "https://github.com/pro-panda"
 footer_text: "Theme by pro-panda"
 
