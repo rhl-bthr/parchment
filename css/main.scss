@@ -174,7 +174,7 @@ code {
         margin-block-end: 0em !important;
     }
     p, ol {
-        margin-block-start: 0.7em !important;
+        margin-block-start: 1em !important;
         margin-block-end: 0.7em !important;
     }
     ol {
@@ -224,7 +224,7 @@ code {
     }
     img {
         text-align: center;
-        margin: 5px 5px 5px 5px;
+        margin: 10px 10px 10px 10px;
         max-width: $max-width;
     }
 }
