@@ -1,16 +1,14 @@
 ---
 layout: post
-title: How to write posts
-snippet: This 5 minute guide teaches you how to write posts in
-         Parchment.
-tags: [guide]
+title: Or maybe Markdown
+snippet: This post explains how you can write posts using Markdown.
+tags: [guide, markdown]
 ---
 
-You can write posts in html or Markdown. This example uses markdown.
-Posts should be named as `%yyyy-%mm-%dd-your-post-title-here.md`,
-and placed in the `_posts/` directory.
+This post is written in markdown, but you can also write a [post using html]({% post_url 2020-02-27-html-posts %}).
+Posts should be named as `%yyyy-%mm-%dd-your-post-title-here.md`, and placed in the `_posts/` directory.
 
-Drafts should be kept in `_drafts/` directory.
+Drafts can be kept in `_drafts/` directory.
 
 -------------
 
@@ -18,19 +16,14 @@ Drafts should be kept in `_drafts/` directory.
 ## This is a sub-heading
 ### This is a sub-sub-heading
 
-<br>
-
 **Here is a bulleted list,**
  - This is a bullet point
  - This is another bullet point
 
-<br>
 
 **Here is a numbered list,**
 1. You can also number things down.
 2. And so on.
-
-<br>
 
 **Here is a sample code snippet in C,**
 ```C
@@ -41,20 +34,14 @@ int main(void){
 }
 ```
 
-<br>
-
 **Here is a horizontal rule,**
 
 --------------
-
-<br>
 
 **Here is a blockquote,**
 
 > There is no such thing as a hopeless situation. Every single 
 > circumstances of your life can change!
-
-<br>
 
 **Here is a table,**
 
@@ -64,17 +51,9 @@ ID  | Name   | Subject
 202 | Doe    | Chemistry
 203 | Samson | Biology
 
-<br>
-
 **Here is a link,**<br>
 [GitHub Inc.](https://github.com) is a web-based hosting service
 for version control using Git
 
-<br>
-
 **Here is an image,**<br>
 ![](../assets/autumn.jpg)
-
---------------
-
-That's all folks!
