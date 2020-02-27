@@ -21,4 +21,4 @@ navbar:
  - name: "About"
    link: "about"
  - name: "Resume"
-   link: "resume.pdf"
+   absolute-link: "https://pro-panda.github.io/resume.pdf"

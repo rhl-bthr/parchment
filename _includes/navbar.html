@@ -4,7 +4,12 @@
     <ul class="pull-right">
         {% for x in site.navbar %}
         <li class="pull-left">
-            <a href="{{ site.url }}{{ site.baseurl}}/{{ x.link }}">{{ x.name }}</a>
+            {% if x.absolute-link %}
+                {% assign x-url = x.absolute-link %}
+            {% else %}
+                {% assign x-url = site.url | append: site.baseurl | append: "/" | append: x.link %}
+            {% endif %}
+            <a href="{{ x-url }}">{{ x.name }}</a>
             {% if forloop.last == false %}/{% endif %}
         </li>
         {% endfor %}
