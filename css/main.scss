@@ -25,7 +25,6 @@ a:hover {
     text-decoration: underline;
 }
 hr {
-    border: none;
     margin: 5px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -172,8 +171,17 @@ code {
 .content {
     line-height: 1.5;
     h1, h2, h3, h4 {
+        margin-block-start: 2em !important;
         margin-block-end: 0em !important;
     }
+    h1:after, h2:after, h3:after, h4:after {
+        content: '';
+        display: block;
+        width: 50%;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 0.5px solid rgba(50, 50, 50, 0.3);
+    }
+
     ol {
         counter-reset: list;
     }
