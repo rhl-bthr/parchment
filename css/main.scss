@@ -232,6 +232,31 @@ code {
         margin: 10px 10px 10px 10px;
         max-width: $max-width;
     }
+
+    .color-red {
+        color: #FF0F00;
+    }
+    .color-orange {
+        color: #eb9800;
+    }
+    .color-green {
+        color:#00eb1d;
+    }
+    .color-blue{
+        color: #0062ff;
+    }
+    .highlight-red {
+        background-color: #ffaaaa;
+    }
+    .highlight-orange {
+        background-color: #ffd486;
+    }
+    .highlight-green {
+        background-color: #aaffad;
+    }
+    .highlight-blue {
+        background-color: #d8e7ff;
+    }
 }
 
 table {

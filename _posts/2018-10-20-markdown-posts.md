@@ -16,6 +16,16 @@ Drafts can be kept in `_drafts/` directory.
 ## This is a sub-heading
 ### This is a sub-sub-heading
 
+<span class="color-blue">Some</span>
+<span class="color-green">cool</span>
+<span class="color-orange">colorful</span>
+<span class="color-red">text.</span><br>
+
+<span class="highlight-blue">And</span>
+<span class="highlight-green">some</span>
+<span class="highlight-orange">highlighting</span>
+<span class="highlight-red">styles.</span>
+
 **Here is a bulleted list,**
  - This is a bullet point
  - This is another bullet point
