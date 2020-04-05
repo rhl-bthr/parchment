@@ -3,6 +3,9 @@ layout: default
 ---
 
 {% for post in site.posts %}
+    {% if post.private == true %}
+        {% continue %}
+    {% endif %}
     <div class="post-card">
         <a class="title" href="{{site.baseurl}}{{ post.url }}">
             {{ post.title }}
