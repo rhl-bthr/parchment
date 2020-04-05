@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Infinite Monkey Theorem
-snippet: as crazy as it sounds...
+subtitle: as crazy as it sounds...
 tags: [math, tech]
 ---
 
