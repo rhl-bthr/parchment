@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% assign has_post = false %}
 {% for post in site.posts %}
     {% if post.private == true %}
         {% continue %}
@@ -30,7 +31,8 @@ layout: default
     {% if forloop.last == false %}
     <hr>
     {% endif %}
+    {% assign has_post = true %}
 {% endfor %}
-{% if site.posts.size == 0 %}
+{% if has_post == false %}
     <div class="no-post">I've lost the ink pot. Check back later...</div>
 {% endif %}
