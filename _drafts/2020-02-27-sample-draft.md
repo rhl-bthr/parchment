@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sample draft
-snippet: This is a draft - it won't be visible on the blog
+subtitle: This is a draft - it won't be visible on the blog
 tags: [WIP]
 ---
 

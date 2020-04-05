@@ -1,13 +1,10 @@
 <head>
-    {% if page.snippet %}
-        {% assign desc = page.snippet %}
-    {% else %}
-        {% assign desc = site.subtitle %}
-    {% endif %}
     {% if page.title %}
         {% assign title = page.title | append: " - " | append: site.title %}
+        {% assign desc = page.subtitle %}
     {% else %}
         {% assign title = site.title %}
+        {% assign desc = site.subtitle %}
     {% endif %}
     {% assign favicon_location = site.url | append: site.baseurl | appned: "/" | append: site.favicon_location %}
 

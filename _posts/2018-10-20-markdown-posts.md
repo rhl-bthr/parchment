@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Or maybe Markdown
-snippet: This post explains how you can write posts using Markdown.
+subtitle: This post explains how you can write posts using Markdown.
 tags: [guide, markdown]
 ---
 
