@@ -15,7 +15,6 @@ favicon_location: assets/favicon.ico
 permalink: /:year-:month-:day-:title/
 sass:
     style: compressed
-    sass_dir: css
 
 navbar:
  - name: "About"
