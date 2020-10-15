@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Rahul Bothra"]
   spec.email         = ["rrbothra@gmail.com"]
 
-  spec.summary       = "Write a short summary, because Rubygems requires one."
+  spec.summary       = "A clean, single column blog template built for Jekyll."
   spec.homepage      = "https://github.com/pro-panda/parchment"
   spec.license       = "GPL-3.0-only"
 
