@@ -2,12 +2,12 @@ title: Parchment
 author: pro-panda
 subtitle: The life of a frustrated engineer
 
-url: "https://pro-panda.github.io"
+url: "https://rahul-bothra.github.io"
 baseurl: "/parchment"
 
 footer_only_homepage: true
-footer_url: "https://github.com/pro-panda"
-footer_text: "Theme by pro-panda"
+footer_url: "https://github.com/rahul-bothra"
+footer_text: "Theme by rahul-bothra"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
