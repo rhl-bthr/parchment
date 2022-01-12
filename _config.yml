@@ -3,7 +3,7 @@ author: Fernanda Carvajal Gómez
 subtitle: Apuntes de un tanuki 
 
 url: "https://facarvajalg.github.io"
-baseurl: "/blog"
+baseurl: "https://facarvajalg.github.io"
 
 footer_only_homepage: true
 footer_url: "https://github.com/rahul-bothra"
