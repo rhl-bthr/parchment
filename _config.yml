@@ -1,9 +1,9 @@
-title: Parchment
-author: pro-panda
-subtitle: The life of a frustrated engineer
+title: Blog de Fernanda Carvajal  
+author: Fernanda Carvajal Gómez
+subtitle: Apuntes de un tanuki 
 
-url: "https://rahul-bothra.github.io"
-baseurl: "/parchment"
+url: "https://facarvajalg.github.io"
+baseurl: "/blog"
 
 footer_only_homepage: true
 footer_url: "https://github.com/rahul-bothra"
@@ -19,6 +19,6 @@ sass:
 
 navbar:
  - name: "About"
-   link: "about"
+   link: "https://facarvajalg.github.io/about/"
  - name: "Resume"
-   absolute-link: "https://rahul-bothra.github.io/CV.pdf"
+   absolute-link: https://www.linkedin.com/in/fcarvajalg/"
