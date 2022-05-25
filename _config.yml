@@ -18,7 +18,7 @@ sass:
     sass_dir: css
 
 navbar:
- - name: "About"
-   link: "about"
- - name: "Resume"
-   absolute-link: "https://rahul-bothra.github.io/CV.pdf"
+ - name: "hbbblog"
+   link: "www.hbbblog.k-r.pw"
+ - name: "hbbblog"
+   absolute-link: "www.hbbblog.k-r.pw"
