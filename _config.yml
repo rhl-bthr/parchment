@@ -2,12 +2,12 @@ title: Parchment
 author: pro-panda
 subtitle: The life of a frustrated engineer
 
-url: "https://rahul-bothra.github.io"
+url: "https://rahulbothra.com"
 baseurl: "/parchment"
 
 footer_only_homepage: true
-footer_url: "https://github.com/rahul-bothra"
-footer_text: "Theme by rahul-bothra"
+footer_url: "https://github.com/rhl-bthr"
+footer_text: "Theme by rhl-bthr"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
@@ -21,4 +21,4 @@ navbar:
  - name: "About"
    link: "about"
  - name: "Resume"
-   absolute-link: "https://rahul-bothra.github.io/CV.pdf"
+   absolute-link: "https://rahulbothra.com/cv.pdf"
